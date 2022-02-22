@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Assign05_6206021621082">
         <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GpaActivity"
+            android:exported="false" />
+        <activity
             android:name=".VatActivity"
             android:exported="false" />
         <activity

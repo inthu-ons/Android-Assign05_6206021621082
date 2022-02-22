@@ -44,10 +44,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(vatIntent);
         }
         else if (id == R.id.calGpaBtn){
-
+            Intent gpaIntent = new Intent(this, GpaActivity.class);
+            startActivity(gpaIntent);
         }
         else if (id == R.id.galleryBtn){
-
+            Intent galleryIntent = new Intent(this, GalleryActivity.class);
+            startActivity(galleryIntent);
         }
         else if (id == R.id.exitBtn){
             finish();
