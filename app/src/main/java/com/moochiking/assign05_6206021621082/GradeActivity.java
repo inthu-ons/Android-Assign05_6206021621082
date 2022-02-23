@@ -71,7 +71,12 @@ public class GradeActivity extends AppCompatActivity implements View.OnClickList
         showScore.setText(score +"");
         showGrade.setText(grade);
 
+        clearInput();
 
+    }
+
+    public void clearInput(){
+        editScore.setText("");
     }
 
 }

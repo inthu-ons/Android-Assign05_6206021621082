@@ -47,10 +47,16 @@ public class VatActivity extends AppCompatActivity implements View.OnClickListen
             showProductPrice.setText(formatter.format(price));
             showVatProduct.setText(formatter.format(vat));
             showTotalProduct.setText(formatter.format(total));
+
+            clearInput();
         }
         else if(id == R.id.btnVatBack){
             finish();
         }
 
+    }
+
+    public void clearInput(){
+        editPrice.setText("");
     }
 }
